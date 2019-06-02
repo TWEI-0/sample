@@ -2,13 +2,13 @@
 
 ## テンプレートファイルの準備
 
-子テーマのフォルダに「page_sitemap.php」というファイルを用意します。
+子テーマのフォルダに「page-sitemap.php」というファイルを用意します。
 
 ファイルの先頭に、以下のコードを記述します。
 ~~~
 <?php
 /*
-Template Name: Sitemap.
+Template Name: Sitemap
 Template Post Type: page
 */
 ?>
