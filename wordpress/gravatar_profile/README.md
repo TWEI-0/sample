@@ -29,8 +29,10 @@ https://www.gravatar.com/avatar/ハッシュ値.php
 
 これらの情報を元にHTMLを組んでいきます。  
 
-最後に、記事内にショートコードが含まれていれば、ショートコードをプロフィール用のHTML文で置換します。
+最後に、記事内にショートコードが含まれていれば、ショートコードをプロフィール用のHTML文で置換します。  
 
 ~~~
 [gravatar]
-~~~
+~~~  
+
+![実行結果](https://twei-blog.com/wp-content/uploads/2019/05/001-2.png)
