@@ -14,7 +14,7 @@ Template Post Type: page
 			'parent' => 0,
 		);
 		$categories = get_categories( $get_categories_args );
-		foreach( $categories as $category ) {
+		foreach ( $categories as $category ) {
 			show_child_category( $category, 1 );
 		}
 		function show_child_category( $parent_category, $depth ) {
@@ -24,7 +24,7 @@ Template Post Type: page
 			echo '<ul>';
 			global $post;
 			$posts = get_posts( 'numberposts=-1&category=' . $parent_category->cat_ID );
-			foreach( $posts as $post ) {
+			foreach ( $posts as $post ) {
 				setup_postdata($post);
 				$post_category = get_the_category( $post->ID );
 				if ( count( $post_category ) > $depth ) {
@@ -38,7 +38,7 @@ Template Post Type: page
 				'parent' => $parent_category->cat_ID,
 			);
 			$categories = get_categories( $get_categories_args );
-			foreach( $categories as $category ) show_child_category( $category, $depth + 1 );
+			foreach ( $categories as $category ) show_child_category( $category, $depth + 1 );
 			echo '</ul>';
 		}
 ?>
