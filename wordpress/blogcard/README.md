@@ -29,4 +29,4 @@
 **get_the_excerpt**  
 引数で渡した記事IDを元に記事の抜粋文を返します。  
 
-[リンク元のブログ記事   | TWEI blog](https://twei-blog.com/blog/wordpress/show-blog-card/)
+[リンク元のブログ記事 | TWEI blog](https://twei-blog.com/blog/wordpress/show-blog-card/)
