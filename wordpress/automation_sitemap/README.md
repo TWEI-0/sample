@@ -32,5 +32,4 @@ Template Post Type: page
 引数で渡した情報を元に記事を返します。  
 numberpostsに-1、categoryにIDを指定すると、そのIDのカテゴリの全記事を取得します。
 
-リンク元のブログ記事  
-[サイトマップページの内容を自動生成させる | TWEI blog](https://twei-blog.com/blog/wordpress/auto-generate-sitemap/)
+[リンク元のブログ記事 | TWEI blog](https://twei-blog.com/blog/wordpress/auto-generate-sitemap/)
