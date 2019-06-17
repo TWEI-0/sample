@@ -36,3 +36,5 @@ https://www.gravatar.com/avatar/ハッシュ値.php
 ~~~  
 
 ![実行結果](https://twei-blog.com/wp-content/uploads/2019/05/001-2.png)
+
+[リンク元のブログ記事 | TWEI blog](https://twei-blog.com/blog/wordpress/gravatar-show-profile/)
